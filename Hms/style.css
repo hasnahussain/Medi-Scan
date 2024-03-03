@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Header Styles */
+#header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1 {
+    margin: 0;
+}
+
+.phone {
+    font-weight: bold;
+}
+
+/* Navigation Styles */
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content: s; */
+    align-items: center;
+}
+
+.nav li {
+    padding: 10px;
+}
+
+.nav a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav a.current, .nav a:hover {
+    color: #fed136;
+}
+
+/* Main Content Styles */
+#content {
+    display: flex;
+    padding: 20px;
+}
+
+.aside {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.content {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.indent {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8em;
+}
+
+#footer a {
+    color: #fed136;
+}
+
+#footer .fleft, #footer .fright {
+    display: block;
+}
+
+/* Utility Classes */
+.maxheight {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.button a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button a:hover {
+    background-color: #0056b3;
+}
+
+/* Form Styles */
+#reservation-form .field {
+    margin-bottom: 10px;
+}
+
+#reservation-form input[type="text"], #reservation-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.select1, .select2 {
+    width: auto;
+    display: inline-block;
+}
+
+/* Image Styles */
+img {
+    height: 100px;
+}
+
+
